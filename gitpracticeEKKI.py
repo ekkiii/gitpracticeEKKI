@@ -1,15 +1,18 @@
 # Partner 1 Name: Ekki Lu
 # Partner 2 Name: Clyde Beuter
 ###############################
-# Assignment Name: GitHub Practice - 2/26/20 - 20 points
-
+# Assignment Name: GitHub Practice - 2/26/20
 def getNRandom(n):
 	'''takes in an integer and returns a list of n random integers between 1 and 10, inclusive'''
     pass
 
 def multiplyRandom(numbers):
-	'''takes in a list of n numbers and returns the product of the numbers'''
-    pass
+        '''takes in a list of n numbers and returns the product of the numbers'''
+        for number in numbers:
+                product = int(number) * product
+        return product
+
+multiplyRandom(numbers)
 
 def main():
 	print(multiplyRandom(getNRandom(10))
