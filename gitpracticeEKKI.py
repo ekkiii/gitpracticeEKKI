@@ -1,7 +1,7 @@
 # Partner 1 Name: Ekki Lu
 # Partner 2 Name: Clyde Beuter
 ###############################
-# Assignment Name: GitHub Practice - 2/26/20
+# Assignment Name: GitHub Practice - 2/26/20 - 20 pts
 
 import random as rand
 
