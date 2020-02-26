@@ -6,7 +6,7 @@
 import random as rand
 
 def getNRandom(n):
-	'''takes in an integer and returns a list of n random integers between 1 and 10, inclusive'''
+    '''takes in an integer and returns a list of n random integers between 1 and 10, inclusive'''
     n_list = []
     for i in range(n):
         n_list.append(rand.randint(1,10))
@@ -14,15 +14,15 @@ def getNRandom(n):
 
 
 def multiplyRandom(numbers):
-        '''takes in a list of n numbers and returns the product of the numbers'''
-        for number in numbers:
-                product = int(number) * product
-        return product
+    '''takes in a list of n numbers and returns the product of the numbers'''
+    product = 1
+    for number in numbers:
+        product = int(number) * product
+    return product
 
-multiplyRandom(numbers)
 
 def main():
-	print(multiplyRandom(getNRandom(10))
+    print(multiplyRandom(getNRandom(10)))
 
 if __name__ == "__main__":
-	main()
+    main()
