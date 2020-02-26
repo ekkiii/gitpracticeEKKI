@@ -15,14 +15,14 @@ def getNRandom(n):
 
 def multiplyRandom(numbers):
     '''takes in a list of n numbers and returns the product of the numbers'''
+    product = 1
     for number in numbers:
-            product = int(number) * product
+        product = int(number) * product
     return product
 
-multiplyRandom(numbers)
 
 def main():
-    print(multiplyRandom(getNRandom(10))
+    print(multiplyRandom(getNRandom(10)))
 
 if __name__ == "__main__":
     main()
